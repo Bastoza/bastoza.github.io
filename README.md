@@ -1,5 +1,3 @@
-# bastoza.github.io
-
 # Bastien Stephan 
 ### Mon readme 
 ### Installation de Jekyll, git & Github Pages.
