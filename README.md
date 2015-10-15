@@ -14,9 +14,9 @@ Le mettre a jours:
 ```
 **Installer Jekyll :**
 
-Il faut NodeJS pour que Jekyll marche.
+Il faut ensuite NodeJS pour que Jekyll marche.
 
-Il faut ensuite installer Curl pour installer NodeJS :
+Il faut installer Curl pour installer NodeJS :
 
 ```
 sudo apt-get install curl
