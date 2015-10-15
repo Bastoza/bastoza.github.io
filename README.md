@@ -61,11 +61,32 @@ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \libz-dev libssl-
 ```
 sudo apt-get install git 
 ```
-Se palcer dans le dossier du site à cloner et remplacer les username (Pour moi "Bastoza").
+
+
+**Configuration du compte et du repository :**
+
+Se placer dans le dossier du site à cloner et remplacer les username (Pour moi "Bastoza") :
 ```
 git clone https://github.com/username/username.github.io
 ```
+Entrer dans le projet et crée le fichier index.html :
+```
+cd username.github.io
+```
+```
+echo "Hello World" > index.html
+```
 
+L'ajouter au repository :
+```
+git add --all
+```
+```
+git commit -m "Initial commit"
+```
+```
+git push -u origin master
+```
 
 ### Problème rencontrer :
 ```
@@ -74,7 +95,7 @@ git config --global user.email "you@example.com"
 ```
 git config --global user.name "Your Name"
 ```
-enlever le “--global”  →
+enlever le “--global” →
 ```
 git config user.email "you@example.com"
 ```
