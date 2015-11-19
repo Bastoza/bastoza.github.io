@@ -4,3 +4,4 @@ presentation: Présentation
 email: bastien@blabla.com
 nom: Bastien
 titlepage: Titre de la page
+excerpt_separator: <!--more-->
