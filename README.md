@@ -1,105 +1,26 @@
-# Bastien Stephan 
-### Mon readme 
-### Installation de Jekyll, git & Github Pages.
+# [Start Bootstrap](http://startbootstrap.com/) - [Modern Business](http://startbootstrap.com/template-overviews/modern-business/)
 
----
+[Modern Business](http://startbootstrap.com/template-overviews/modern-business/) is a multipurpose, full website template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template includes 17 unique HTML pages and a working PHP contact form.
 
-Il faut tous d'abord installer Ruby :
-```
- sudo apt-get install ruby-full
-```
-Le mettre a jours:
-```
- sudo gem update –system
-```
-**Installer Jekyll :**
+## Getting Started
 
-Il faut ensuite NodeJS pour que Jekyll marche.
+To use this template, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
-Il faut installer Curl pour installer NodeJS :
+## Bugs and Issues
 
-```
-sudo apt-get install curl
-```
+Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-modern-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/modern-business/).
 
-Commande pour NodeJS :
+## Creator
 
-```
-curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
-```
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-Puis (pour terminer l’installation) : 
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-```
-sudo apt-get install --yes nodejs
-```
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-Puis, il faut se placer dans le dossier à la racine du site et ecrire :
-```
-jekyll new nomdusite
-```
-```
-cd nomdusite
-```
-```
-jekyll serve
-```
-L'URL seras alors :
-```
-http://localhost:4000/
-```
+## Copyright and License
 
-**Installation de GIT :**
-
-Crée un compte GitHUB
-
-Ouvrir un nouveau terminal :
-
-```
-sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \libz-dev libssl-dev
-```
-```
-sudo apt-get install git 
-```
-
-
-**Configuration du compte et du repository :**
-
-Se placer dans le dossier du site à cloner et remplacer les username (Pour moi "Bastoza") :
-```
-git clone https://github.com/username/username.github.io
-```
-Entrer dans le projet et crée le fichier index.html :
-```
-cd username.github.io
-```
-```
-echo "Hello World" > index.html
-```
-
-L'ajouter au repository :
-```
-git add --all
-```
-```
-git commit -m "Initial commit"
-```
-```
-git push -u origin master
-```
-
-### Problème rencontrer :
-```
-git config --global user.email "you@example.com"
-```
-```
-git config --global user.name "Your Name"
-```
-enlever le “--global” →
-```
-git config user.email "you@example.com"
-```
-```
-git config user.name "Your Name"
-```
-
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-modern-business/blob/gh-pages/LICENSE) license.
